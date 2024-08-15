@@ -46,11 +46,6 @@ p.location {
   white-space: nowrap;
 }
 
-p.semester {
-  font-size: 0.6rem;
-  white-space: nowrap;
-}
-
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;
@@ -83,6 +78,10 @@ table.student {
 }
 
 td.student {
+  font-size: 0.8rem;
+}
+
+td.semester {
   font-size: 0.8rem;
 }
 
