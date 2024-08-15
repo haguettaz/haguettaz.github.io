@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 28th July 1996
     - name: Languages
-      value: French, English
+      value: French (native) and English
 
 - title: Education
   type: time_table
@@ -15,8 +15,7 @@
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2018 - 2021
       description:
-        - Major in Robotics
-        - Minor in Data Science
+        - Major in Robotics and Minor in Data Science
         - title: Master thesis
           contents:
             - Sub-description 1.
@@ -28,30 +27,17 @@
         - Microengineering
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Spiking Neural Networks.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Quantum Computing
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Algebra
-      items:
-        - Category Theory
-        - Group Theory
+    - Neural Computation
+    - Signal Processing
+    - Machine Learning
+    - Quantum Computation
+    - Optimization
 
 - title: Other Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Sport.
-      items: 
-        - Running
-        - Gravel Biking and Mountain Biking
-        - Mountaineering
-    - title: Music.
-      items:
-        - Electronic music
-        - Jazz
+    - Sport (running, biking, mountaineering)
+    - Music
+    - Litterature
