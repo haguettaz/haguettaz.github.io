@@ -2,13 +2,13 @@
     {% for content in entry.contents %}
       <li class="list-group-item">
         <div class="row">
-          {% if content.year and content.semester %}
+          {% if content.semester %}
             <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
               <table class="table-projects">
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.semester }} {{ content.year }}</span>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.semester }}</span>
                     </td>
                   </tr>
                   {% if content.location %}
@@ -30,7 +30,7 @@
             <table class="table-projects ml-1 ml-md-4 student">
             <tbody>
               <tr>
-                <td style="vertical-align: top; text-align: center;" class="student"><i class="fas fa-graduation-cap iconstudent"></i></td>
+                <td style="vertical-align: top; text-align: center;" class="student"><i class="fas fa-user-graduate iconstudent"></i></td>
                 <td class="student">{{content.student}}</td>
               </tr>
             </tbody>
