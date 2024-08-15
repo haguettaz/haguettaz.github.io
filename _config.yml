@@ -426,3 +426,11 @@ jsonresume:
   - languages
   - interests
   - references
+
+jekyll_get_json:
+  - data: projects
+    json: assets/json/projects.json # it can also be an url
+jsonprojects:
+  - ba
+  - sa
+  - ma
