@@ -1,5 +1,5 @@
 
-- title: Master's Thesis
+- title: Master's Theses
   type: time_table
   contents:
     - title: Modeling 2D-NMR-Signals using Factor Graphs
@@ -35,7 +35,7 @@
       semester: Fall 2022
       abstract: Nonograms are constraint-satisfaction picture puzzles in which one tries to paint the pixels of a given grid to reveal a hidden picture, while satisfying all its row and column constraints. It has been shown that the problem of solving a nonogram is NP-complete. In this project, we investigate how to algorithmically solve multi-colored nonograms using factor graphs and iterative constraints propagation with low complexity. In addition, we present certain techniques that can be employed to solve nonograms with multiple solutions.
 
-- title: Bachelor's Thesis
+- title: Bachelor's Theses
   type: time_table
   contents:
     - title: Solving Puzzles by Iterative Constraint Propagation
