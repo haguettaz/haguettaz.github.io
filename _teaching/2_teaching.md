@@ -3,7 +3,7 @@ layout: page
 title: AECC
 description: Algebra and Error Correcting Codes
 importance: 2
-category: ta
+category: teaching assistant
 ---
 
 Every project has a beautiful feature showcase page.

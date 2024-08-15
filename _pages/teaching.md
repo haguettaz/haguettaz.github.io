@@ -5,7 +5,7 @@ permalink: /teaching/
 description: A non-exhaustive list of teaching assignments
 nav: true
 nav_order: 2
-display_categories: [ta]
+display_categories: [teaching assistant, bachelor project, semester project, master project]
 horizontal: false
 ---
 
