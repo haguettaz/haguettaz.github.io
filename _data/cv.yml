@@ -68,30 +68,32 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Spiking Neural Networks.
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Quantum Computing
       items:
         - Description 1.
         - Description 2.
+    - title: Algebra
+      items:
+        - Category Theory
+        - Group Theory
 
 - title: Other Interests
-  type: list
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Running, Mountaineering, Biking
+    - title: Sport.
+      items: 
+        - Running
+        - Gravel Biking and Mountain Biking
+        - Mountaineering
+    - title: Music.
+      items:
+        - Electronic music
+        - Jazz
+    -title: Litterature.
