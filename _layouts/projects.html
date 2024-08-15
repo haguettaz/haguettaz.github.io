@@ -2,49 +2,7 @@
 layout: default
 ---
 <!-- _layouts/projects.html -->
-{% unless site.data.resume %}
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }} </h1>
-      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
-
-  <h4>Table of contents</h4>
-  <ul class="timeline">
-  {% for entry in site.data.projects %}
-    <li><a href="#{{ entry.title }}"><span class="badge-toc">{{ entry.title }}</span></a></li>
-  {% endfor %}
-  </ul>
-
-  <article>
-    <div class="projects">
-      {% for entry in site.data.projects %}
-        <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-          {% if entry.type == "list" %}
-            {% include projects/list.html %}
-          {% elsif entry.type == "map" %}
-            {% include projects/map.html %}
-          {% elsif entry.type == "nested_list" %}
-            {% include projects/nested_list.html %}
-          {% elsif entry.type == "time_table" %}
-            {% include projects/time_table.html %}
-          {% elsif entry.type == "list_groups" %}
-            {% include projects/list_groups.html %}
-          {% else %}
-            {{ entry.contents }}
-          {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
-  </article>
-
-</div>
-{% else %}
 <div class="post">
 
   <header class="post-header">
@@ -54,9 +12,9 @@ layout: default
 
   <h4>Table of contents</h4>
   <ul class="timeline">
-  {% for entry in site.data.resume %}
-    {% if site.jsonresume and site.jsonresume.size > 0 %}
-      {% unless site.jsonresume contains entry[0] %}
+  {% for entry in site.data.projects %}
+    {% if site.jsonprojects and site.jsonprojects.size > 0 %}
+      {% unless site.jsonprojects contains entry[0] %}
         {% continue %}
       {% endunless %}
     {% endif %}
@@ -69,9 +27,9 @@ layout: default
 
   <article>
     <div class="projects">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
+      {% for data in site.data.projects %}
+        {% if site.jsonprojects and site.jsonprojects.size > 0 %}
+          {% unless site.jsonprojects contains data[0] %}
             {% continue %}
           {% endunless %}
         {% endif %}
@@ -99,4 +57,3 @@ layout: default
   </article>
 
 </div>
-{% endunless %}
