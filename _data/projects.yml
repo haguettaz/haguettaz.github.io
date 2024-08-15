@@ -24,18 +24,22 @@
       student: Arsim Dzambazoski
       semester: Spring
       year: 2023
+      abstract: Analyzing nuclear magnetic resonance (NMR) spectra to detect the peaks is an important step in quantifying and verifying the structure of a molecule. Methods for detecting peaks are referred to as deconvolution - a challenging task for machines and experts. The proposed deconvolution algorithm developed in this thesis models NMR spectra as a superposition of decaying sinusoids, from which it estimates frequency, decay, and initial state. The algorithm is based on a linear-state space model and uses message passing on a suitable factor graph to estimate the parameters. First, the algorithm was tested on only two sinusoids, to determine how close their peaks can get and what signal-to-noise (SNR) is needed to distinguish them. The results revealed that the closer they are the more SNR is needed for a good estimation. Notably, even overlapping peaks could be de- tected with a sufficiently high SNR. In another experiment, we analyzed how large the ratio between two amplitudes can be. The algorithm could distinguish both sinusoids for a dynamic range of 150. Finally, the algorithm was tested on experimental NMR spectra of Ethanol and Aspirin. All peaks could be detected in those experimental spectra.
     - title: A New Approach to Decoding Reed Muller Codes with Composite NUV Priors
       student: Alessio Lukaj
       semester: Spring
       year: 2023
+      abstract: Efficiently decoding Reed-Muller codes is still an ongoing problem that keeps spanning immense interest in the community. They are used in various appli cations due to their good performance, however, the lack of an efficient decoder deems them unattractive in many cases when the decoding complexity is of importance. In this thesis, we investigate novel approaches to decoding Reed-Muller codes exclusively with Gaussian message passing algorithms directly on the factor graph of the code. The non-convex and discrete nature of the XOR operation will be alleviated by modelling it via a convex function employing composite NUV priors, ultimately allowing the usage of Gaussian message passing. We propose various methods that use the convexified XOR opera- tion to build a novel and potentially fast decoder. The performance of these decoders will be compared against the maximum-likelihood decoder, and an analysis of their complexity will be given. Finally, the thesis concludes with a few open problems.
     - title: On Composite NUV Priors and Hierarchical Models
       student: Luca Iten
       semester: Fall
       year: 2024
+      abstract: This report describes two novel NUV-based methods applicable to a great variety of signal-analysis related applications. The first derived algorithm works as a model selector mechanism, effectively estimating which sections of given observations most likely originated from which of the specified models. It makes heavy use of a specially designed one-hot NUV prior, giving it the desired behaviour. The method is shown to work by applying it to a variety of different problems, most notably to fit a finite amount of potentially unknown constant levels and to construct a piecewise constant model with a known base level. The second described method provides a way to estimate the potentially evolving covariance matrices of zero-mean Gaussian noise based on a small number of observations. This covariance estimation method relies on a specialised lower-level model, which itself can easily be modelled by a great variety of well known state-space models. Finally, this second method is applied to a hierarchical model, yield- ing accurate estimates of both, the means and noise covariance matrices for the given observations. Note that all described algorithms have a computational complexity linear in the number of observations, making them a very powerful tool compared to competing methods.
     - title: Modeling 2D-NMR-Signals using Factor Graphs
       student: Nando Waser
       semester: Spring
       year: 2024
+      abstract: We introduce a method for automated peak picking of 2D-NMR, by fitting a model to the measured time-domain signal. The model's parameters are optimized by alternating maximization on a factor graph. While the method is in its infancy it shows great promise to disentangle strongly overlapping peaks.
 
 - title: Bachelor's Thesis
   type: time_table
@@ -44,3 +48,4 @@
       student: Sophie Legler
       semester: Fall
       year: 2023
+      abstract: This thesis explores the application of iterative constraint propagation for solv- ing constraint satisfaction problems. Constraint satisfaction problems involve a large number of problems, which makes the techniques for solving these problems valuable. In this case, a very intuitive solution technique was used to distribute the information from the individual constraints as messages. The aim is to understand the algorithm used to calculate the messages and, with its help, determine whether there are one or more solutions for different problems. What the solutions look like, if they exist, is moreover of interest. Within this thesis, four specific applications of constraint satisfaction problems were analyzed - the Latin Square, the Sudoku, Einstein's Puzzle, and the Graph Colouring Problem. The respective implementations require only minor adjustments to adapt the algorithm to the specific characteristics of each individual problem.
