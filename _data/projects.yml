@@ -1,21 +1,3 @@
-- title: Semester Projects
-  type: time_table
-  contents:
-    - title: Nonograms and Iterative Constraints Propagation
-      student: Alessio Lukaj
-      semester: Fall
-      year: 2022
-      abstract: Nonograms are constraint-satisfaction picture puzzles in which one tries to paint the pixels of a given grid to reveal a hidden picture, while satisfying all its row and column constraints. It has been shown that the problem of solving a nonogram is NP-complete. In this project, we investigate how to algorithmically solve multi-colored nonograms using factor graphs and iterative constraints propagation with low complexity. In addition, we present certain techniques that can be employed to solve nonograms with multiple solutions.
-    - title: A Novel Approach to Building Binary Priors
-      student: Suvin Blum
-      semester: Fall
-      year: 2023
-      abstract: Priors with a NUV representation (normal with unknown variance) have primarily been utilized for sparsity. Recently, a binarizing NUV prior has been proposed and demonstrated to be highly eﬀective for certain approximation problems. This thesis introduces a novel method for creating discrete priors through composite NUV. The process involves creating a cost function and building corresponding priors using composite NUV. The thesis also explores the challenges of handling negative variance and developing a functional algorithm for both binary and M-level cases. The priors are then tested within certain applications to evaluate their performance. Although the novel prior does not perform as well as the existing method, it oﬀers an alternative tool for discretizing priors with faster convergence.
-    - title: An Exploration of Scalable Approaches to Integer Linearly Constrained Programs
-      student: Johannes Nüesch
-      semester: Spring
-      year: 2024
-      abstract: Solving integer linearly constrained programs (ILCPs) is NP-hard, making exact methods impractical for large-scale problems. This thesis explores approximate methods to address these challenges. We first investigate a normal with unknown variance (NUV)-based approach, utilizing discretizing priors and half-space constraints. Although this method shows promise, it lacks robustness due to parameter adjustment and convergence issues. Additionally, we explore metaheuristic approaches, namely simulated annealing and genetic algorithms. These methods demonstrate improved robustness and convergence rates. Our findings suggest that metaheuristic algorithms provide practical solutions for large-scale ILCP challenges by effectively balancing performance and computational efficiency.
 
 - title: Master's Thesis
   type: time_table
@@ -40,6 +22,25 @@
       semester: Spring
       year: 2024
       abstract: We introduce a method for automated peak picking of 2D-NMR, by fitting a model to the measured time-domain signal. The model's parameters are optimized by alternating maximization on a factor graph. While the method is in its infancy it shows great promise to disentangle strongly overlapping peaks.
+      
+- title: Semester Projects
+  type: time_table
+  contents:
+    - title: Nonograms and Iterative Constraints Propagation
+      student: Alessio Lukaj
+      semester: Fall
+      year: 2022
+      abstract: Nonograms are constraint-satisfaction picture puzzles in which one tries to paint the pixels of a given grid to reveal a hidden picture, while satisfying all its row and column constraints. It has been shown that the problem of solving a nonogram is NP-complete. In this project, we investigate how to algorithmically solve multi-colored nonograms using factor graphs and iterative constraints propagation with low complexity. In addition, we present certain techniques that can be employed to solve nonograms with multiple solutions.
+    - title: A Novel Approach to Building Binary Priors
+      student: Suvin Blum
+      semester: Fall
+      year: 2023
+      abstract: Priors with a NUV representation (normal with unknown variance) have primarily been utilized for sparsity. Recently, a binarizing NUV prior has been proposed and demonstrated to be highly eﬀective for certain approximation problems. This thesis introduces a novel method for creating discrete priors through composite NUV. The process involves creating a cost function and building corresponding priors using composite NUV. The thesis also explores the challenges of handling negative variance and developing a functional algorithm for both binary and M-level cases. The priors are then tested within certain applications to evaluate their performance. Although the novel prior does not perform as well as the existing method, it oﬀers an alternative tool for discretizing priors with faster convergence.
+    - title: An Exploration of Scalable Approaches to Integer Linearly Constrained Programs
+      student: Johannes Nüesch
+      semester: Spring
+      year: 2024
+      abstract: Solving integer linearly constrained programs (ILCPs) is NP-hard, making exact methods impractical for large-scale problems. This thesis explores approximate methods to address these challenges. We first investigate a normal with unknown variance (NUV)-based approach, utilizing discretizing priors and half-space constraints. Although this method shows promise, it lacks robustness due to parameter adjustment and convergence issues. Additionally, we explore metaheuristic approaches, namely simulated annealing and genetic algorithms. These methods demonstrate improved robustness and convergence rates. Our findings suggest that metaheuristic algorithms provide practical solutions for large-scale ILCP challenges by effectively balancing performance and computational efficiency.
 
 - title: Bachelor's Thesis
   type: time_table
