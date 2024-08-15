@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: Ph.D
-      institution: Ecole Polytechnique Fédérale, Zürich, Switzerland
+      institution: Eidgenössische Technische Hochschule, Zürich, Switzerland
       year: 2021 - Now
       description:
         - Neural Computation
