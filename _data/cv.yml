@@ -15,9 +15,9 @@
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2018 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Major in Robotics
+        - Minor in Data Science
+        - title: Master thesis
           contents:
             - Sub-description 1.
             - Sub-description 2.
@@ -25,8 +25,7 @@
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2015 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Microengineering
 
 - title: Academic Interests
   type: nested_list
