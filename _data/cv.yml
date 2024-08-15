@@ -22,10 +22,9 @@
       year: 2018 - 2021
       description:
         - Major in Robotics and Minor in Data Science
-        - title: Master thesis
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Master Thesis
+          description:
+          - ChebLieNet:Invariant Spectral Graph NNs Turned Equivariant by Riemannian Geometry on Lie Groups
     - title: B.Sc.
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2015 - 2018
@@ -37,9 +36,7 @@
   contents:
     - Neural Computation
     - Signal Processing
-    - Machine Learning
     - Quantum Computation
-    - Optimization
 
 - title: Other Interests
   type: list
