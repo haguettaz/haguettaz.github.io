@@ -382,6 +382,31 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+.projects {
+  margin-bottom: 40px;
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+}
+
+.table-projects-map {
+  background-color: transparent;
+  border: none;
+  color: var(--global-text-color);
+}
+
 // Repositories
 
 @media (min-width: 768px) {
