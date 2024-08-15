@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a Doctoral Student at href='https://isi.ee.ethz.ch'>ISI, ETH Zürich</a>.
+subtitle: <a href='https://isi.ee.ethz.ch'>ISI, ETH Zürich</a>.
 
 profile:
   align: right
