@@ -12,3 +12,12 @@ category: project supervision
 Spring 2023
 
 Detecting Decaying Sinusoids for NMR Spectra
+
+title: Detecting Decaying Sinusoids for NMR Spectra
+description: Arsim Dzambazoski, Spring 2023
+
+title: On Composite NUV Priors and Hierarchical Models
+description: Luca Iten, Fall 2023
+
+title: Modeling 2D-NMR-Signals using Factor Graphs
+description: Nando Waser, Spring 2024
