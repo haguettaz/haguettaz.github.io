@@ -3,7 +3,7 @@ layout: page
 title: DSSP
 description: Discrete-Time and Statistical Signal Processing
 importance: 1
-category: ethz
+category: ta
 ---
 
 Every project has a beautiful feature showcase page.

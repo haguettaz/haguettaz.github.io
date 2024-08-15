@@ -5,7 +5,7 @@ permalink: /teaching/
 description: A non-exhaustive list of teaching assignments
 nav: true
 nav_order: 2
-display_categories: [ethz, epfl]
+display_categories: [ta, ma, ba, sa]
 horizontal: false
 ---
 
