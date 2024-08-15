@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Signal and Information Processing Laboratory (ISI)</a>.
+subtitle: <a Doctoral Student at href='https://isi.ee.ethz.ch'>ISI, ETH Zürich</a>.
 
 profile:
   align: right
