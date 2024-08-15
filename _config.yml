@@ -387,7 +387,7 @@ bootstrap:
 bootstrap-table:
   version: "1.21.4"
 fontawesome:
-  version: "6.4.0"
+  version: "6.6.0"
   integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
 jquery:
   version: "3.6.0"
@@ -426,11 +426,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-jekyll_get_json:
-  - data: projects
-    json: assets/json/projects.json # it can also be an url
-jsonprojects:
-  - ba
-  - sa
-  - ma
