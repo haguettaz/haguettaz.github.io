@@ -11,7 +11,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science
+    - title: Ph.D
+      institution: Ecole Polytechnique Fédérale, Zürich, Switzerland
+      year: 2021 - Now
+      description:
+        - Neural Computation
+        - Signal Processing (with Factor Graphs)
+    - title: M.Sc.
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2018 - 2021
       description:
@@ -20,7 +26,7 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Bachelor of Science
+    - title: B.Sc.
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2015 - 2018
       description:
