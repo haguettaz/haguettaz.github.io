@@ -15,14 +15,14 @@
     - title: On Composite NUV Priors and Hierarchical Models
       student: Luca Iten
       semester: Fall
-      year: 2024
+      year: Fall 2024
       abstract: This report describes two novel NUV-based methods applicable to a great variety of signal-analysis related applications. The first derived algorithm works as a model selector mechanism, effectively estimating which sections of given observations most likely originated from which of the specified models. It makes heavy use of a specially designed one-hot NUV prior, giving it the desired behaviour. The method is shown to work by applying it to a variety of different problems, most notably to fit a finite amount of potentially unknown constant levels and to construct a piecewise constant model with a known base level. The second described method provides a way to estimate the potentially evolving covariance matrices of zero-mean Gaussian noise based on a small number of observations. This covariance estimation method relies on a specialised lower-level model, which itself can easily be modelled by a great variety of well known state-space models. Finally, this second method is applied to a hierarchical model, yield- ing accurate estimates of both, the means and noise covariance matrices for the given observations. Note that all described algorithms have a computational complexity linear in the number of observations, making them a very powerful tool compared to competing methods.
     - title: Modeling 2D-NMR-Signals using Factor Graphs
       student: Nando Waser
       semester: Spring
       year: 2024
       abstract: We introduce a method for automated peak picking of 2D-NMR, by fitting a model to the measured time-domain signal. The model's parameters are optimized by alternating maximization on a factor graph. While the method is in its infancy it shows great promise to disentangle strongly overlapping peaks.
-      
+
 - title: Semester Projects
   type: time_table
   contents:
