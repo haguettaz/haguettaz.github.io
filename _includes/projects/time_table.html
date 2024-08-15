@@ -14,7 +14,7 @@
                   {% if content.semester %}
                   <tr>
                     <td>
-                      <p>{{ content.semester }}</p>
+                      <p class="semester">{{ content.semester }}</p>
                     </td>
                   </tr>
                   {% endif %}
@@ -36,8 +36,8 @@
             </tbody>
             </table>
             {% endif %}
-            {% if content.maindescription %}
-              <div class="ml-1 ml-md-4 ">{{ content.maindescription }}</div>
+            {% if content.abstract %}
+              <div class="ml-1 ml-md-4 ">{{ content.abstract }}</div>
             {% endif %}
             {% if content.description %}
               <ul class="items">

@@ -5,6 +5,7 @@
       student: Alessio Lukaj
       semester: Fall
       year: 2022
+      abstract: Nonograms are constraint-satisfaction picture puzzles in which one tries to paint the pixels of a given grid to reveal a hidden picture, while satisfying all its row and column constraints. It has been shown that the problem of solving a nonogram is NP-complete. In this project, we investigate how to algorithmically solve multi-colored nonograms using factor graphs and iterative constraints propagation with low complexity. In addition, we present certain techniques that can be employed to solve nonograms with multiple solutions.
     - title: A Novel Approach to Building Binary Priors
       student: Suvin Blum
       semester: Fall
