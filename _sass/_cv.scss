@@ -63,6 +63,12 @@ i.iconstudent {
   margin-right: 0.3rem;
 }
 
+i.iconthesis {
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  margin-right: 0.3rem;
+}
+
 i.icondepartment {
   color: var(--global-theme-color);
   font-size: 0.8rem;
@@ -87,6 +93,11 @@ td.semester {
 
 td.department {
   font-size: 0.8rem;
+}
+
+td.thesis {
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 div.container-links {

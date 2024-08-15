@@ -13,15 +13,12 @@
   contents:
     - title: Ph.D
       institution: Eidgenössische Technische Hochschule, Zürich, Switzerland
+      department: Signal and Information Processing Laboratory (ISI)
       year: 2021 - Now
-      description:
-        - Neural Computation
-        - Signal Processing (with Factor Graphs)
     - title: M.Sc. in Robotics and Data Science (minor)
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2018 - 2021
-      description:
-        - ChebLieNet. Invariant Spectral Graph NNs Turned Equivariant by Riemannian Geometry on Lie Groups
+      thesis: ChebLieNet | Invariant Spectral Graph NNs Turned Equivariant by Riemannian Geometry on Lie Groups
     - title: B.Sc. in Microengineering
       institution: Ecole Polytechnique Fédérale, Lausanne, Switzerland
       year: 2015 - 2018
@@ -38,4 +35,4 @@
   contents:
     - Sport (running, biking, mountaineering)
     - Music
-    - Litterature
+    - Litteratures
