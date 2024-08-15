@@ -3,33 +3,33 @@
   contents:
     - title: Nonograms and Iterative Constraints Propagation
       student: Alessio Lukaj
-      semester: 2022
+      year: 2022
     - title: A Novel Approach to Building Binary Priors
       student: Suvin Blum
-      semester: 2023
+      year: 2023
     - title: An Exploration of Scalable Approaches to Integer Linearly Constrained Programs
       student: Johannes Nüesch
-      semester: 2024
+      year: 2024
 
 - title: Master's Thesis
   type: time_table
   contents:
     - title: Detecting Decaying Sinusoids for NMR Spectra
       student: Arsim Dzambazoski
-      semester: 2023
+      year: 2023
     - title: A New Approach to Decoding Reed Muller Codes with Composite NUV Priors
       student: Alessio Lukaj
-      semester: 2023
+      year: 2023
     - title: On Composite NUV Priors and Hierarchical Models
       student: Luca Iten
-      semester: 2024
+      year: 2024
     - title: Modeling 2D-NMR-Signals using Factor Graphs
       student: Nando Waser
-      semester: 2024
+      year: 2024
 
 - title: Bachelor's Thesis
   type: time_table
   contents:
     - title: Solving Puzzles by Iterative Constraint Propagation
       student: Sophie Legler
-      semester: 2023
+      year: 2023
