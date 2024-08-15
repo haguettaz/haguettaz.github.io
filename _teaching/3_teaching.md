@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Solving Puzzles By Iterative Constraint Propagation
-description: Sophie Legler, Fall 2023
+title: Nonograms and Iterative Constraints Propagation
+description: Alessio Lukaj, Fall 2022
 importance: 2
-category: bachelor project
+category: semester project
 ---

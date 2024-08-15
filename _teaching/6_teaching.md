@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Detecting Decaying Sinusoids for NMR Spectra
-description: Arsim Dzambazoski, Spring 2023
+title: Solving Puzzles By Iterative Constraint Propagation
+description: Sophie Legler, Fall 2023
 importance: 2
-category: master project
+category: bachelor project
 ---

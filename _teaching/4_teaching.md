@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Nonograms and Iterative Constraints Propagation
-description: Alessio Lukaj, Fall 2022
+title: A New Approach to Decoding Reed Muller Codes with Composite NUV Priors
+description: Alessio Lukaj, Spring 2023
 importance: 2
-category: semester project
+category: master project
 ---
