@@ -2,10 +2,10 @@
 layout: page
 title: ta
 permalink: /ta/
-description: A growing collection of your cool ta.
+description: A non-exhaustive list of TA 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [ethz, epfl]
 horizontal: false
 ---
 
