@@ -10,10 +10,12 @@
       student: Suvin Blum
       semester: Fall
       year: 2023
+      abstract: Priors with a NUV representation (normal with unknown variance) have primarily been utilized for sparsity. Recently, a binarizing NUV prior has been proposed and demonstrated to be highly eﬀective for certain approximation problems. This thesis introduces a novel method for creating discrete priors through composite NUV. The process involves creating a cost function and building corresponding priors using composite NUV. The thesis also explores the challenges of handling negative variance and developing a functional algorithm for both binary and M-level cases. The priors are then tested within certain applications to evaluate their performance. Although the novel prior does not perform as well as the existing method, it oﬀers an alternative tool for discretizing priors with faster convergence.
     - title: An Exploration of Scalable Approaches to Integer Linearly Constrained Programs
       student: Johannes Nüesch
       semester: Spring
       year: 2024
+      abstract: Solving integer linearly constrained programs (ILCPs) is NP-hard, making exact methods impractical for large-scale problems. This thesis explores approximate methods to address these challenges. We first investigate a normal with unknown variance (NUV)-based approach, utilizing discretizing priors and half-space constraints. Although this method shows promise, it lacks robustness due to parameter adjustment and convergence issues. Additionally, we explore metaheuristic approaches, namely simulated annealing and genetic algorithms. These methods demonstrate improved robustness and convergence rates. Our findings suggest that metaheuristic algorithms provide practical solutions for large-scale ILCP challenges by effectively balancing performance and computational efficiency.
 
 - title: Master's Thesis
   type: time_table
