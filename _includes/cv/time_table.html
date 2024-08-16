@@ -48,6 +48,12 @@
                 <td class="thesis">{{ content.thesis }}</td>
               </tr>
               {% endif %}
+              {% if content.github %}
+              <tr>
+                <td style="vertical-align: top; text-align: center;" class="github"><i class="fa-brands fa-github icongithub"></i></td>
+                <td class="github">{{ content.github }}</td>
+              </tr>
+              {% endif %}
             </tbody>
             </table>
             {% endif %}
