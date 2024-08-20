@@ -28,6 +28,7 @@
   type: list
   contents:
     - Neural Computation
+    - Convex Optimization
     - Signal Processing
     - Quantum Computation
 
