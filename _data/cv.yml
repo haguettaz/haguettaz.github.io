@@ -7,6 +7,8 @@
       value: 28th July 1996
     - name: Languages
       value: French (native) and English
+    - name: Programming Languages
+      value: Python, C/C++, and Rust
 
 - title: Education
   type: time_table
