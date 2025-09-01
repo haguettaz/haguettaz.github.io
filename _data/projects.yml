@@ -2,6 +2,10 @@
 - title: Master's Theses
   type: time_table
   contents:
+    - title: Physics-Based Radar Simulation and Inference for Avian Micro-Doppler Signatures
+      student: Johannes Nüesch
+      semester: Spring 2025
+      abstract: Micro-Doppler spectrograms from FMCW radars encode detailed information on the morphology, motion, and behaviour of flapping-wing animals, yet interpreting these signals is challenging because ground-truth kinematics are essentially unavailable and annotations are scarce. Meaningful analysis therefore depends on extracting features that are both interpretable and robust to distortions present in field data. This thesis addresses the problem with a physics-based simulation framework that models articulated flight and generates synthetic datasets exhibiting realistic scattering artefacts. These simulations provide the basis for training a neural network that learns to denoise radar measurements and recover kinematic descriptors from real recordings while suppressing environmental and measurement artefacts. The recovered features make it possible to reconstruct characteristic motion patterns and to group tracks in an unsupervised manner, revealing biologically plausible structure without the need for labels. In this way, synthetic supervision establishes a practical link between complex radar signatures and higher-level interpretation, enabling richer use of micro-Doppler data.
     - title: Modeling 2D-NMR-Signals using Factor Graphs
       student: Nando Waser
       semester: Spring 2024

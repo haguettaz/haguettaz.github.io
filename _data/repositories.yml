@@ -2,6 +2,6 @@ github_users:
   - haguettaz
 
 github_repos:
+  - haguettaz/rsnn
   - haguettaz/rusty-snn
-  # - haguettaz/RSNN
   - haguettaz/ChebLieNet
