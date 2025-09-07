@@ -2,6 +2,10 @@
 - title: Master's Theses
   type: time_table
   contents:
+    - title: On Constrained Convex Optimization Via Dual NUP Representations
+      student: Cyrill Achermann
+      semester: Spring 2025
+      abstract: Normals with Unknown Parameters (NUP) allow iteratively reweighted least-squares algorithms to solve constrained optimization problems. In this project, we compare two of these algorithms, namely, the Iterative Reweighted Linear Gaussian Estimation (IRLGE) algorithm and the Iterative Forward-Filtering Backward Dual Deciding (IFFBDD) algorithm. We analyze their computational behavior and explore methods to minimize an L1 objective. We then extend one algorithm to state space models, including adaptations for handling input constraints and composite NUPs. We depict our algorithms in factor graphs, which is a good way to visualize their respective behavior. Finally, we provide a Rust implementation of the algorithms, along with remarks on the design choices we made in the implementations.
     - title: Physics-Based Radar Simulation and Inference for Avian Micro-Doppler Signatures
       student: Johannes Nüesch
       semester: Spring 2025
