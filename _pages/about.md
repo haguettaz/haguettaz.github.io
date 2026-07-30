@@ -14,6 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in the Laboratory of Signal and Information Processing with Prof. Hans-Andrea Loeliger, where my primary research focuses on neural computation.
-My work delves into the mechanisms of information processing in neural systems, exploring how these processes can be modeled and understood through computational methods. 
-Beyond neural computation, I have a strong interest in convex optimization and applied probability theory, which I like to incorporate into my research.
+Having recently earned my PhD in Neural Computation from the Signal and Information Processing Laboratory at ETH Zürich under Prof. Hans-Andrea Loeliger, I am now a Doctor of Science open to new opportunities. 
+My doctoral research explored the memorization and reproduction of precisely timed firing patterns in recurrent networks of spiking neurons. 
+Through this work, I deepened my expertise in information and signal processing using factor graphs -- specifically as a framework for modeling, visualizing, and designing optimization and estimation algorithms. 
+Alongside my core research, I have developed a strong focus on the Rust programming language for building safe, high-performance software.
+I am now actively seeking Research Engineer roles where I can bridge deep theoretical science with modern, real-world engineering.
