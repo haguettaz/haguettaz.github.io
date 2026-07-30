@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://isi.ee.ethz.ch'>Signal and Information Processing Laboratory, ETH Zürich</a>.
+subtitle: Doctor of Science.
 
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
