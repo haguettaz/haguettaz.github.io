@@ -2,6 +2,8 @@ github_users:
   - haguettaz
 
 github_repos:
+  - haguettaz/arbor-ferrea
+  - haguettaz/minisudoku
   - haguettaz/rsnn
   - haguettaz/rusty-snn
   - haguettaz/ChebLieNet

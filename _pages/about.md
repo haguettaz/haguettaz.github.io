@@ -13,9 +13,10 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Following the completion of my doctoral studies under the supervision of Prof. Hans-Andrea Loeliger, I am seeking new professional opportunities.
-My doctoral research explored the memorization and reproduction of precisely timed firing patterns in recurrent networks of clockless, noisy, spiking neurons. 
-Through this work, I deepened my expertise in information and signal processing using factor graphs as a framework for modeling, visualizing, and designing optimization and estimation algorithms. 
-In addition to my primary research, I have cultivated a strong focus on the Rust programming language to develop safe and high-performance software.
-I am now actively seeking Research Engineer roles where I can bridge deep theoretical science with modern, real-world engineering.
+I work with factor graphs, a graphical language that puts probabilistic inference and optimization in one framework: many estimation and optimization algorithms become message passing on a graph, and the graph shows how the problem is built. I use them to model problems, to draw them, and to design algorithms.
 
+I did my PhD at ETH Zürich under Prof. Hans-Andrea Loeliger, studying how recurrent networks of noisy, clockless spiking neurons can memorize and reproduce precisely timed firing patterns.
+
+I write software in Rust, for code that is safe and fast, and I am currently building a real-time estimation library.
+
+I am looking for Research Engineer roles where both the mathematics and the code matter.
